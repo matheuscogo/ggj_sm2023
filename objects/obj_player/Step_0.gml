@@ -12,3 +12,5 @@ if (direction <= 315 and direction >= 225) {sprite_index = spr_baixo}
 if (direction <= 255 and direction >= 135) {sprite_index = spr_esquerda}
 if (direction <= 135 and direction >= 45) {sprite_index = spr_cima}
 if (direction >= 315 and direction >= 45) {sprite_index = spr_direita}
+if (direction >=0 and direction <= 45) {sprite_index = spr_direita}
+
