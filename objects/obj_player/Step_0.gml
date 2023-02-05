@@ -70,3 +70,4 @@ if(speed == 0 and sprite_index == spr_left) {
 	image_index = 0
 }
 
+ 

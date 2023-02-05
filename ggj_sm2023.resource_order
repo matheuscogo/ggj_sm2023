@@ -16,6 +16,10 @@
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"Player","order":10,"path":"folders/Sprites/Player.yy",},
     {"name":"Player","order":2,"path":"folders/Objetos/Player.yy",},
+    {"name":"DialogBox","order":2,"path":"folders/Objetos/DialogBox.yy",},
+    {"name":"DialogBox","order":10,"path":"folders/Sprites/DialogBox.yy",},
+    {"name":"Items","order":3,"path":"folders/Objetos/Items.yy",},
+    {"name":"Items","order":11,"path":"folders/Sprites/Items.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_down","order":2,"path":"sprites/spr_down/spr_down.yy",},
