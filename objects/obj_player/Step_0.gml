@@ -14,3 +14,6 @@ if (direction <= 135 and direction >= 45) {sprite_index = spr_cima}
 if (direction >= 315 and direction >= 45) {sprite_index = spr_direita}
 if (direction >=0 and direction <= 45) {sprite_index = spr_direita}
 
+if obj_scenary.level == 8 and place_meeting(x,y,obj_door){
+	room_goto(Room1)	
+}
