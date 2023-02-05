@@ -1,16 +1,16 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_player",
+  "name": "obj_press",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Player",
-    "path": "folders/Objetos/Player.yy",
+    "name": "Items",
+    "path": "folders/Objetos/Items.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -29,9 +29,9 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_right",
-    "path": "sprites/spr_right/spr_right.yy",
+    "name": "spr_item",
+    "path": "sprites/spr_item/spr_item.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }

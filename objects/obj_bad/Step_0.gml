@@ -22,4 +22,38 @@ if(place_meeting(x,y,obj_player)){
 		instance_destroy(obj_dialogBox)
 		dialogBox = noone;
 	}
+	
+}
+
+
+
+
+switch(obj_scenary.level) {
+	case 0:
+		textList[0] = "Não estou com sono"
+		break;
+	case 1:
+		textList[0] = "Não tenho tempo para dormir, preciso sair daqui."
+		break;
+	case 2:
+		layer_background_change(back_id, spr_scenary2);
+		break;
+	case 3:
+		layer_background_change(back_id, spr_scenary3);
+		break;
+	case 4:
+		layer_background_change(back_id, spr_scenary4);
+		break;
+	case 5:
+		layer_background_change(back_id, spr_scenary5);
+		break;
+	case 6:
+		layer_background_change(back_id, spr_scenary6);
+		break;
+	case 7:
+		layer_background_change(back_id, spr_scenary7);
+		break;
+	case 8:
+		layer_background_change(back_id, spr_scenary8);
+		break;
 }
