@@ -1,4 +1,4 @@
-if contr_orange == true{
+if contr_orange == true and colou = false{
 	if keyboard_check(vk_up){
 		y = y-obj_controler.spd
 	}
@@ -11,11 +11,45 @@ if contr_orange == true{
 	if keyboard_check(vk_right){
 		x = x+obj_controler.spd
 	}
-	if keyboard_check(ord("E")){
-		image_angle += obj_controler.angulo
+	if keyboard_check_pressed(ord("E")){
+		angulo++
 	}
-	if keyboard_check(ord("Q")){
-		image_angle -= obj_controler.angulo
+	if keyboard_check_pressed(ord("Q")){
+		image_xscale = image_xscale*-1
+
+	}
+	switch(angulo){
+		case "1":
+			image_angle = 0
+		break;
+		case "2":
+			image_angle = 90
+		break;
+		case "3":
+			image_angle = 135
+		break;
+		case "4":
+			image_angle = 180
+		break;
+		case "5":
+			image_angle = 225
+		break;
+		case "6":
+			image_angle = 270
+			angulo = 0
+		break;
+	}
+}
+if instance_exists(obj_chk_orange){
+		if (place_meeting(x,y,obj_chk_orange) and obj_chk_orange.image_angle == image_angle and fixed == false){
+			colou = true
+			fixed = true
+			obj_controler.contagem += 1
+		}
 	}
 
+
+if colou {
+	x = obj_chk_orange.x	
+	y = obj_chk_orange.y	
 }

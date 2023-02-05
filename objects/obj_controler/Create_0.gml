@@ -1,3 +1,4 @@
 escolher = 0
-spd = 1
-angulo = 1
+spd = 10
+contagem = 0
+tempo = false
