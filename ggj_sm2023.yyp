@@ -69,6 +69,7 @@
     {"id":{"name":"spr_up","path":"sprites/spr_up/spr_up.yy",},"order":0,},
     {"id":{"name":"obj_tan_yellow","path":"objects/obj_tan_yellow/obj_tan_yellow.yy",},"order":14,},
     {"id":{"name":"spr_left","path":"sprites/spr_left/spr_left.yy",},"order":0,},
+    {"id":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},"order":0,},
     {"id":{"name":"obj_dialogBox","path":"objects/obj_dialogBox/obj_dialogBox.yy",},"order":0,},
     {"id":{"name":"spr_scenary0","path":"sprites/spr_scenary0/spr_scenary0.yy",},"order":0,},
     {"id":{"name":"spr_scenary3","path":"sprites/spr_scenary3/spr_scenary3.yy",},"order":0,},

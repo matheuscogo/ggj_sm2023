@@ -32,6 +32,7 @@
     {"name":"spr_tan_yellow","order":4,"path":"sprites/spr_tan_yellow/spr_tan_yellow.yy",},
     {"name":"Sprite5","order":10,"path":"sprites/Sprite5/Sprite5.yy",},
     {"name":"spr_tan_blue","order":5,"path":"sprites/spr_tan_blue/spr_tan_blue.yy",},
+    {"name":"obj_collision","order":2,"path":"objects/obj_collision/obj_collision.yy",},
     {"name":"spr_scenary0","order":12,"path":"sprites/spr_scenary0/spr_scenary0.yy",},
     {"name":"spr_scenary3","order":8,"path":"sprites/spr_scenary3/spr_scenary3.yy",},
     {"name":"spr_scenary7","order":11,"path":"sprites/spr_scenary7/spr_scenary7.yy",},

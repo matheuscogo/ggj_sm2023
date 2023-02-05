@@ -1,16 +1,17 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_player",
+  "name": "obj_collision",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Player",
-    "path": "folders/Objetos/Player.yy",
+    "name": "Items",
+    "path": "folders/Objetos/Items.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -27,11 +28,11 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": false,
+  "solid": true,
   "spriteId": {
-    "name": "spr_right",
-    "path": "sprites/spr_right/spr_right.yy",
+    "name": "Sprite5",
+    "path": "sprites/Sprite5/Sprite5.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }
