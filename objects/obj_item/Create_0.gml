@@ -4,5 +4,5 @@ dialogBox = noone;
 pressText = noone;
 pressShow = true;
 name = "Item"
-textList[0] = "Texto 1 para teste hola hola hola hello hello hello"
+textList[0] = "Texto 1 para teste hola hola hola hello hello hello ola ola ola bonjur bonjur bonjur"
 textList[1] = "Texto 2 para teste hola hola hola hello hello hello"

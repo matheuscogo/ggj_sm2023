@@ -2,6 +2,8 @@
 // Você pode escrever seu código neste editor
 text = "Teste teste teste"
 name = ""
+room_x = room_width
+room_y = room_height
 xBuffer = 10;
 yBuffer = 10;
 soundOn = false
