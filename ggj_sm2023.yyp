@@ -54,6 +54,7 @@
     {"id":{"name":"spr_tan_orange","path":"sprites/spr_tan_orange/spr_tan_orange.yy",},"order":6,},
     {"id":{"name":"obj_tangram","path":"objects/obj_tangram/obj_tangram.yy",},"order":8,},
     {"id":{"name":"obj_tan_orenge","path":"objects/obj_tan_orenge/obj_tan_orenge.yy",},"order":10,},
+    {"id":{"name":"snd_keyboard","path":"sounds/snd_keyboard/snd_keyboard.yy",},"order":0,},
     {"id":{"name":"spr_tan_yellow","path":"sprites/spr_tan_yellow/spr_tan_yellow.yy",},"order":8,},
     {"id":{"name":"fnt_dialogBox","path":"fonts/fnt_dialogBox/fnt_dialogBox.yy",},"order":0,},
     {"id":{"name":"obj_item","path":"objects/obj_item/obj_item.yy",},"order":0,},

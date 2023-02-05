@@ -4,7 +4,8 @@ text = "Teste teste teste"
 name = ""
 xBuffer = 10;
 yBuffer = 10;
-
+soundOn = false
+keyBoardSound = noone;
 page = 0
 creator = noone;
 charCount = 0;
